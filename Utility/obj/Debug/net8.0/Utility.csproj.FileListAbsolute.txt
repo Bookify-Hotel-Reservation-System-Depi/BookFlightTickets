@@ -1,0 +1,12 @@
+E:\track\tectnical\MVC\projects\p5\BookFlightTickets\Utility\bin\Debug\net8.0\Utility.deps.json
+E:\track\tectnical\MVC\projects\p5\BookFlightTickets\Utility\bin\Debug\net8.0\Utility.dll
+E:\track\tectnical\MVC\projects\p5\BookFlightTickets\Utility\bin\Debug\net8.0\Utility.pdb
+E:\track\tectnical\MVC\projects\p5\BookFlightTickets\Utility\obj\Debug\net8.0\Utility.GeneratedMSBuildEditorConfig.editorconfig
+E:\track\tectnical\MVC\projects\p5\BookFlightTickets\Utility\obj\Debug\net8.0\Utility.AssemblyInfoInputs.cache
+E:\track\tectnical\MVC\projects\p5\BookFlightTickets\Utility\obj\Debug\net8.0\Utility.AssemblyInfo.cs
+E:\track\tectnical\MVC\projects\p5\BookFlightTickets\Utility\obj\Debug\net8.0\Utility.csproj.CoreCompileInputs.cache
+E:\track\tectnical\MVC\projects\p5\BookFlightTickets\Utility\obj\Debug\net8.0\Utility.dll
+E:\track\tectnical\MVC\projects\p5\BookFlightTickets\Utility\obj\Debug\net8.0\refint\Utility.dll
+E:\track\tectnical\MVC\projects\p5\BookFlightTickets\Utility\obj\Debug\net8.0\Utility.pdb
+E:\track\tectnical\MVC\projects\p5\BookFlightTickets\Utility\obj\Debug\net8.0\ref\Utility.dll
+E:\track\tectnical\MVC\projects\p5\BookFlightTickets\Utility\obj\Debug\net8.0\Utility.sourcelink.json
