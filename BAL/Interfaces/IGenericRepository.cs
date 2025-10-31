@@ -8,7 +8,7 @@ namespace BLLProject.Interfaces
         Task AddAsync(T entity);
         void Delete(T entity);
         Task<T?> GetByIdAsync(int id);
-        Task<IEnumerable<T>> GetAllAsync();
+        Task<IEnumerable<T>> GetAllAsync(Func<IQueryable<T>, IQueryable<T>>? include = null);
         void Update(T entity);
         Task<T?> GetEntityWithSpecAsync(ISpecification<T> spec);
         Task<IEnumerable<T>> GetAllWithSpecAsync(ISpecification<T> spec);

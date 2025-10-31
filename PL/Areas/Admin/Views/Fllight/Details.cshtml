@@ -1,0 +1,50 @@
+﻿@model DAL.models.Flight
+
+@{
+    ViewData["Title"] = "Flight Details";
+}
+
+<h2>Flight Details</h2>
+
+<div class="card shadow p-4 mt-3 text-black">
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <strong>Airline:</strong> @Model.Airline?.Name
+        </div>
+        <div class="col-md-6">
+            <strong>Airplane:</strong> @Model.Airplane?.Model
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <strong>Departure Airport:</strong> @Model.DepartureAirport?.Name
+        </div>
+        <div class="col-md-6">
+            <strong>Arrival Airport:</strong> @Model.ArrivalAirport?.Name
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <strong>Departure Time:</strong> @Model.DepartureTime.ToString("g")
+        </div>
+        <div class="col-md-6">
+            <strong>Arrival Time:</strong> @Model.ArrivalTime.ToString("g")
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <strong>Base Price:</strong> $@Model.BasePrice
+        </div>
+        <div class="col-md-6">
+            <strong>Status:</strong> @Model.Status
+        </div>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

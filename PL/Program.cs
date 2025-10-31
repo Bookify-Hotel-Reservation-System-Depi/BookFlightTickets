@@ -3,6 +3,7 @@ using BLLProject.Interfaces;
 using BLLProject.Repositories;
 using DAL.Data;
 using DAL.DBInitializer;
+using DAL.models;
 using DALProject.DBInitializer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
@@ -30,6 +31,9 @@ namespace PL
             });
 
             #endregion
+            //builder.Services.AddIdentity<AppUser, IdentityRole>()
+            //                //.AddEntityFrameworkStores<BookFilghtsDbContext>()
+            //                .AddDefaultTokenProviders();
 
             builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
             {
@@ -68,6 +72,17 @@ namespace PL
                 // , see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+           
+
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var initializer = scope.ServiceProvider.GetRequiredService<IDBInitializer>();
+                initializer.Initialize();
+            }
+
+
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();

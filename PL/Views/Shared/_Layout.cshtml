@@ -3,42 +3,129 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ABooking </title>
+    <title>@ViewData["Title"] - ABooking</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PL.styles.css" asp-append-version="true" />
+    <style>
+        body {
+            background: #0b0c10;
+            color: #ffffff;
+            font-family: "Poppins", sans-serif;
+            overflow-x: hidden;
+            animation: fadeIn 0.8s ease-in;
+        }
+
+        @@keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .navbar {
+            transition: background 0.4s ease, box-shadow 0.4s ease;
+        }
+        .navbar:hover {
+            background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+        }
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+        .navbar-brand:hover {
+            color: #00bcd4 !important;
+        }
+
+        .nav-link {
+            position: relative;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #00e5ff !important;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 2px;
+            width: 0%;
+            background: #00e5ff;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        main {
+            animation: slideUp 0.6s ease;
+        }
+        @@keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .footer {
+            font-size: 0.9rem;
+            background: #111;
+            color: #bbb;
+            transition: background 0.3s ease;
+        }
+        .footer:hover {
+            background: #1c1c1c;
+        }
+        button, .btn {
+            transition: all 0.3s ease;
+        }
+        button:hover, .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 229, 255, 0.3);
+        }
+
+        .container {
+            transition: all 0.4s ease;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark border-bottom mb-3 bg-dark shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand text-light" asp-area="Customer" asp-controller="Home" asp-action="Index">ABooking</a>
+                <a class="navbar-brand text-light" asp-area="Customer" asp-controller="Home" asp-action="Index">
+                     ABooking
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                aria-controls="navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation">
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="Customer" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link text-light" asp-area="Customer" asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" asp-area="Admin" asp-controller="Fllight" asp-action="Index">Flights</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" asp-area="Customer" asp-controller="Booking" asp-action="Index">My Bookings</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" asp-area="" asp-controller="Account" asp-action="Profile">Profile</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" asp-area="Admin" asp-controller="Airplane" asp-action="Index">Airplanes</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" asp-area="Admin" asp-controller="Airline" asp-action="Index">Airlines</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" asp-area="Admin" asp-controller="Admin" asp-action="Dashboard">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" asp-area="Admin" asp-controller="AddOn" asp-action="Index">AddOn</a></li>
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+
+    <div class="container py-4">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="footer border-top text-light fixed-bottom bg-dark">
-        <div class="container text-center py-2">
-            &copy; 2025 - ABooking
-        </div>
+    <footer class="footer border-top text-center py-2 fixed-bottom">
+        &copy; 2025 - <span class="text-info">ABooking</span> 
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

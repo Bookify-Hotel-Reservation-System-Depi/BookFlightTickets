@@ -13,7 +13,7 @@ namespace DAL.Configrations
             builder.HasOne(e => e.Airline)
                 .WithMany(s => s.Airplanes)
                 .HasForeignKey(e => e.AirlineId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Restrict);
 
             builder.Property(e => e.Model)
                 .HasMaxLength(100)

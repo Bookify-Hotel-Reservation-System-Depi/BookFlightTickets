@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\BAL\\BLL.csproj": {}
+    "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\BAL\\BLL.csproj": {}
   },
   "projects": {
-    "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\BAL\\BLL.csproj": {
+    "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\BAL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\BAL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\BAL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\BAL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\BAL\\obj\\",
+        "projectPath": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\BAL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\BAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CRIZMA MEGA STORE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\DAL\\DAL.csproj": {
-                "projectPath": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\DAL\\DAL.csproj"
+              "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\DAL\\DAL.csproj"
               }
             }
           }
@@ -48,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -69,24 +69,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\DAL\\DAL.csproj": {
+    "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CRIZMA MEGA STORE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,8 +101,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\Utility\\Utility.csproj": {
-                "projectPath": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\Utility\\Utility.csproj"
+              "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\Utility\\Utility.csproj": {
+                "projectPath": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\Utility\\Utility.csproj"
               }
             }
           }
@@ -117,7 +117,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -152,24 +152,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\Utility\\Utility.csproj": {
+    "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\Utility\\Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\Utility\\Utility.csproj",
+        "projectUniqueName": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\Utility\\Utility.csproj",
         "projectName": "Utility",
-        "projectPath": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\Utility\\Utility.csproj",
-        "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\Utility\\obj\\",
+        "projectPath": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\Utility\\Utility.csproj",
+        "packagesPath": "C:\\Users\\CRIZMA MEGA STORE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CRIZMA MEGA STORE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -196,7 +196,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -217,7 +217,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
