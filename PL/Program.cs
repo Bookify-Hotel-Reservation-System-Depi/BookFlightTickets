@@ -73,17 +73,6 @@ namespace PL
                 app.UseHsts();
             }
 
-           
-
-
-            using (var scope = app.Services.CreateScope())
-            {
-                var initializer = scope.ServiceProvider.GetRequiredService<IDBInitializer>();
-                initializer.Initialize();
-            }
-
-
-
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

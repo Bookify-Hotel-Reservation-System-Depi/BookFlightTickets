@@ -50,7 +50,7 @@ namespace DALProject.DBInitializer
                 db.SaveChanges();
             }
 
-           
+
             if (!db.Airports.Any())
             {
                 db.Airports.AddRange(new List<Airport>
@@ -69,12 +69,12 @@ namespace DALProject.DBInitializer
                 var egyptAirId = db.Airlines.FirstOrDefault(a => a.Name == "EgyptAir")?.Id ?? 1;
 
                 db.Airplanes.AddRange(new List<Airplane>
-    {
-        new Airplane { Model = "Boeing 737", SeatCapacity = 180, AirlineId = egyptAirId },
-        new Airplane { Model = "Airbus A320", SeatCapacity = 150, AirlineId = egyptAirId },
-        new Airplane { Model = "Boeing 777", SeatCapacity = 396, AirlineId = egyptAirId },
-        new Airplane { Model = "Airbus A350", SeatCapacity = 300, AirlineId = egyptAirId }
-    });
+                {
+                    new Airplane { Model = "Boeing 737", SeatCapacity = 180, AirlineId = egyptAirId },
+                    new Airplane { Model = "Airbus A320", SeatCapacity = 150, AirlineId = egyptAirId },
+                    new Airplane { Model = "Boeing 777", SeatCapacity = 396, AirlineId = egyptAirId },
+                    new Airplane { Model = "Airbus A350", SeatCapacity = 300, AirlineId = egyptAirId }
+                });
                 db.SaveChanges();
             }
 
