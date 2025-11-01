@@ -564,7 +564,7 @@ namespace DAL.Migrations
                     b.HasOne("DAL.models.Airline", "Airline")
                         .WithMany("Airplanes")
                         .HasForeignKey("AirlineId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Airline");
