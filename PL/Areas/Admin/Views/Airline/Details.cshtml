@@ -1,0 +1,22 @@
+﻿@model DAL.models.Airline
+
+@{
+    ViewData["Title"] = "Airline Details";
+}
+
+<h2 class="mb-3">Airline Details</h2>
+
+<div class="card p-4 shadow-sm mt-3 text-black">
+    <dl class="row">
+        <dt class="col-sm-3">Airline Name</dt>
+        <dd class="col-sm-9">@Model.Name</dd>
+
+        <dt class="col-sm-3">Airline Code</dt>
+        <dd class="col-sm-9">@Model.Code</dd>
+    </dl>
+
+    <div class="mt-4">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

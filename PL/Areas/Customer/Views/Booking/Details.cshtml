@@ -1,0 +1,63 @@
+﻿@model DAL.models.Flight
+
+@{
+    ViewData["Title"] = "Flight Details";
+}
+
+
+<div class="mb-3">
+    <label asp-for="AirlineId" class="form-label" required>Airline</label>
+    <select asp-for="AirlineId" class="form-select" asp-items="@(new SelectList(ViewBag.Airlines, "Id", "Name"))">
+        <option value="">-- Select Airline --</option>
+    </select>
+</div>
+
+<div class="mb-3">
+    <label asp-for="AirplaneId" class="form-label" required>Airplane</label>
+    <select asp-for="AirplaneId" class="form-select" asp-items="@(new SelectList(ViewBag.Airplanes, "Id", "Model"))">
+        <option value="">-- Select Airplane --</option>
+    </select>
+</div>
+
+<div class="mb-3">
+    <label asp-for="DepartureAirportID" class="form-label" required>Departure Airport</label>
+    <select asp-for="DepartureAirportID" class="form-select" asp-items="@(new SelectList(ViewBag.Airports, "Id", "Name"))">
+        <option value="">-- Select Departure Airport --</option>
+    </select>
+</div>
+
+<div class="mb-3">
+    <label asp-for="ArrivalAirportID" class="form-label" required>Arrival Airport</label>
+    <select asp-for="ArrivalAirportID" class="form-select" asp-items="@(new SelectList(ViewBag.Airports, "Id", "Name"))">
+        <option value="">-- Select Arrival Airport --</option>
+    </select>
+</div>
+
+<div class="mb-3">
+    <label asp-for="DepartureTime" class="form-label" required>Departure Time</label>
+    <input asp-for="DepartureTime" type="datetime-local" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label asp-for="ArrivalTime" class="form-label" required>Arrival Time</label>
+    <input asp-for="ArrivalTime" type="datetime-local" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label asp-for="BasePrice" class="form-label" required>Base Price</label>
+    <input asp-for="BasePrice" class="form-control" type="number" step="0.01" />
+</div>
+
+<div class="mb-3">
+    <label asp-for="Status" class="form-label" required>Flight Status</label>
+    <select asp-for="Status" class="form-select" required>
+        <option value="1">Scheduled</option>
+        <option value="2">Cancelled</option>
+        <option value="3">Delayed</option>
+        <option value="4">Departed</option>
+        <option value="5">Landed</option>
+    </select>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>
+<a asp-action="Edit" class="btn btn-secondary">Edit Flight</a>

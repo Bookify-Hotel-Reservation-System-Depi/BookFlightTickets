@@ -2,7 +2,7 @@
 using DAL.Data;
 using DAL.models;
 namespace BLLProject.Repositories
-{
+{ 
     public class UnitOfWork : IUnitOfWork
     {
         private readonly BookFilghtsDbContext _dbContext;

@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|c:\\users\\crizma mega store\\source\\repos\\bookify-hotel-reservation-system-depi\\bookflighttickets\\pl\\areas\\admin\\views\\fllight\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\fllight\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|c:\\users\\crizma mega store\\source\\repos\\bookify-hotel-reservation-system-depi\\bookflighttickets\\pl\\areas\\admin\\views\\fllight\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\fllight\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|c:\\users\\crizma mega store\\source\\repos\\bookify-hotel-reservation-system-depi\\bookflighttickets\\pl\\areas\\admin\\views\\fllight\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\fllight\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|c:\\users\\crizma mega store\\source\\repos\\bookify-hotel-reservation-system-depi\\bookflighttickets\\pl\\areas\\admin\\views\\fllight\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\fllight\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|c:\\users\\crizma mega store\\source\\repos\\bookify-hotel-reservation-system-depi\\bookflighttickets\\pl\\areas\\admin\\views\\airline\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\airline\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|c:\\users\\crizma mega store\\source\\repos\\bookify-hotel-reservation-system-depi\\bookflighttickets\\pl\\areas\\admin\\views\\airline\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\airline\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|c:\\users\\crizma mega store\\source\\repos\\bookify-hotel-reservation-system-depi\\bookflighttickets\\pl\\areas\\admin\\views\\airline\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A5DCE33-9500-4699-878B-C189C5BD3AB8}|PL\\PL.csproj|solutionrelative:pl\\areas\\admin\\views\\airline\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +38,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -22,6 +55,97 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Fllight\\Search.cshtml",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Fllight\\Search.cshtml",
+              "ToolTip": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Fllight\\Search.cshtml",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\Fllight\\Search.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T17:16:43.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Fllight\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Fllight\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Fllight\\Delete.cshtml",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\Fllight\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T17:16:18.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Fllight\\Details.cshtml",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Fllight\\Details.cshtml",
+              "ToolTip": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Fllight\\Details.cshtml",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\Fllight\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T17:15:54.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Fllight\\Index.cshtml",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Fllight\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Fllight\\Index.cshtml",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\Fllight\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T17:13:49.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Airline\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Airline\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Airline\\Delete.cshtml",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\Airline\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T17:12:43.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Airline\\Details.cshtml",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Airline\\Details.cshtml",
+              "ToolTip": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Airline\\Details.cshtml",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\Airline\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T17:11:27.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Airline\\Index.cshtml",
+              "RelativeDocumentMoniker": "PL\\Areas\\Admin\\Views\\Airline\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CRIZMA MEGA STORE\\source\\repos\\Bookify-Hotel-Reservation-System-Depi\\BookFlightTickets\\PL\\Areas\\Admin\\Views\\Airline\\Index.cshtml",
+              "RelativeToolTip": "PL\\Areas\\Admin\\Views\\Airline\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T17:08:28.621Z",
+              "EditorCaption": ""
             }
           ]
         }

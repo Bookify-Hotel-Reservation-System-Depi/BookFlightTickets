@@ -34,8 +34,17 @@ namespace BLLProject.Repositories
             return await _dbContext.Set<T>().FindAsync(id);
         }
 
-        public async Task<IEnumerable<T>> GetAllAsync()
+        public async Task<IEnumerable<T>> GetAllAsync(Func<IQueryable<T>, IQueryable<T>>? include = null)
         {
+            IQueryable<T> query = _dbContext.Set<T>();
+
+            if (include != null)
+            {
+                query = include(query);
+                return await query.ToListAsync();
+            }
+                
+
             return await _dbContext.Set<T>().AsNoTracking().ToListAsync();
         }
 

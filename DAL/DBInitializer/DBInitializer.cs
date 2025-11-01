@@ -1,6 +1,7 @@
 ﻿using BAL.model;
 using DAL.Data;
 using DAL.DBInitializer;
+using DAL.models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Utility;
@@ -35,6 +36,46 @@ namespace DALProject.DBInitializer
             catch (Exception ex)
             {
                 Console.WriteLine("DB Initialization error: " + ex.Message);
+            }
+
+
+            if (!db.Airlines.Any())
+            {
+                db.Airlines.AddRange(new List<Airline>
+                {
+                    new Airline { Name = "EgyptAir", Code = "EGY" },
+                    new Airline { Name = "Emirates", Code = "EMR" },
+                    new Airline { Name = "Qatar Airways", Code = "QTR" },
+                });
+                db.SaveChanges();
+            }
+
+           
+            if (!db.Airports.Any())
+            {
+                db.Airports.AddRange(new List<Airport>
+                {
+                    new Airport { Name = "Cairo International Airport", Code = "CAI" },
+                    new Airport { Name = "Dubai International Airport", Code = "DXB" },
+                    new Airport { Name = "Doha International Airport", Code = "DOH" },
+                    new Airport { Name = "Istanbul Airport", Code = "IST" },
+                });
+                db.SaveChanges();
+            }
+
+
+            if (!db.Airplanes.Any())
+            {
+                var egyptAirId = db.Airlines.FirstOrDefault(a => a.Name == "EgyptAir")?.Id ?? 1;
+
+                db.Airplanes.AddRange(new List<Airplane>
+    {
+        new Airplane { Model = "Boeing 737", SeatCapacity = 180, AirlineId = egyptAirId },
+        new Airplane { Model = "Airbus A320", SeatCapacity = 150, AirlineId = egyptAirId },
+        new Airplane { Model = "Boeing 777", SeatCapacity = 396, AirlineId = egyptAirId },
+        new Airplane { Model = "Airbus A350", SeatCapacity = 300, AirlineId = egyptAirId }
+    });
+                db.SaveChanges();
             }
 
 
