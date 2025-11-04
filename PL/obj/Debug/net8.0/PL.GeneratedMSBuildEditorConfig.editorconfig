@@ -44,18 +44,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRkT25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Admin/Views/Admin/Dashboard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Admin/Views/Admin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Admin/Views/Admin/Reports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cUmVwb3J0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Admin/Views/Airline/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWlybGluZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -94,6 +82,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Admin/Views/Airplane/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWlycGxhbmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Admin/Views/Dashboard/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXERhc2hib2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Admin/Views/Fllight/Create.cshtml]

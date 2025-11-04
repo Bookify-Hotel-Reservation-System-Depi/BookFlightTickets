@@ -1,10 +1,14 @@
 ﻿using BLLProject.Interfaces;
 using DAL.models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using PL.ViewModels;
+using Utility;
 
 namespace PL.Areas.Admin.Controllers
 {
+    [Area(SD.Admin)]
+    [Authorize(Roles = SD.Admin)]
     public class AirportController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
