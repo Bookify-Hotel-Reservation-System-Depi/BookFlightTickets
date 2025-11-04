@@ -1,11 +1,14 @@
 ﻿using DAL.Data;
 using DAL.models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Utility;
 
 namespace PL.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area(SD.Admin)]
+    [Authorize(Roles = SD.Admin)]
     public class AddOnController : Controller
     {
         private readonly BookFilghtsDbContext _context;

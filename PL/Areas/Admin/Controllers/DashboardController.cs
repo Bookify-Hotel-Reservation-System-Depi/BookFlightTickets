@@ -4,24 +4,22 @@ using DAL.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Utility;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PL.Areas.Admin.Controllers
 {
-    [Area("Admin")]
-    public class AdminController : Controller
+    [Area(SD.Admin)]
+    [Authorize(Roles = SD.Admin)]
+    public class DashboardController : Controller
     {
         private readonly BookFilghtsDbContext _context;
         private readonly UserManager<AppUser> _userManager;
 
-        public AdminController(BookFilghtsDbContext context, UserManager<AppUser> userManager)
+        public DashboardController(BookFilghtsDbContext context, UserManager<AppUser> userManager)
         {
             _context = context;
             _userManager = userManager;
-        }
-
-        public IActionResult Index()
-        {
-            return RedirectToAction("Dashboard");
         }
 
         public async Task<IActionResult> Dashboard()
@@ -68,11 +66,6 @@ namespace PL.Areas.Admin.Controllers
             ).ToList();
 
             return View(model);
-        }
-
-        public IActionResult Reports()
-        {
-            return View();
         }
     }
 }

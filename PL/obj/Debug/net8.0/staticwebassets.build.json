@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AD3oPTF5lh0QBNNAl/D8nFWoR5kyRK3tv4iwtDY5NXg=",
+  "Hash": "4EjLU4kISgwBtnn9V4ESMEN7jfm6ir7xRG31ZiIMwJk=",
   "Source": "PL",
   "BasePath": "_content/PL",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7o8gr0o6ot",
-      "Integrity": "54paGIrDbXkjT4XchFV40m/8eX2gBeGY7T2QVJYDZHM=",
+      "Fingerprint": "802z9a303v",
+      "Integrity": "6DUGrgmLCFAbiGgzpr/f1aYZfEaEzYJWGXqbmdDG/8k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2602,7 +2602,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.7o8gr0o6ot.css",
+      "Route": "css/site.802z9a303v.css",
       "AssetFile": "E:\\track\\tectnical\\MVC\\projects\\p5\\BookFlightTickets\\PL\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2612,7 +2612,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "563"
+          "Value": "2404"
         },
         {
           "Name": "Content-Type",
@@ -2620,11 +2620,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"54paGIrDbXkjT4XchFV40m/8eX2gBeGY7T2QVJYDZHM=\""
+          "Value": "\"6DUGrgmLCFAbiGgzpr/f1aYZfEaEzYJWGXqbmdDG/8k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Nov 2025 18:08:29 GMT"
+          "Value": "Tue, 04 Nov 2025 09:10:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2634,7 +2634,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7o8gr0o6ot"
+          "Value": "802z9a303v"
         },
         {
           "Name": "label",
@@ -2642,7 +2642,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-54paGIrDbXkjT4XchFV40m/8eX2gBeGY7T2QVJYDZHM="
+          "Value": "sha256-6DUGrgmLCFAbiGgzpr/f1aYZfEaEzYJWGXqbmdDG/8k="
         }
       ]
     },
@@ -2657,7 +2657,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "563"
+          "Value": "2404"
         },
         {
           "Name": "Content-Type",
@@ -2665,11 +2665,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"54paGIrDbXkjT4XchFV40m/8eX2gBeGY7T2QVJYDZHM=\""
+          "Value": "\"6DUGrgmLCFAbiGgzpr/f1aYZfEaEzYJWGXqbmdDG/8k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Nov 2025 18:08:29 GMT"
+          "Value": "Tue, 04 Nov 2025 09:10:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2679,7 +2679,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-54paGIrDbXkjT4XchFV40m/8eX2gBeGY7T2QVJYDZHM="
+          "Value": "sha256-6DUGrgmLCFAbiGgzpr/f1aYZfEaEzYJWGXqbmdDG/8k="
         }
       ]
     },
