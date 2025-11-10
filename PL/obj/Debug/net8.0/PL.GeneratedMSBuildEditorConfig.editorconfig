@@ -120,76 +120,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Account/EditProfile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQWNjb3VudFxFZGl0UHJvZmlsZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Account/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Account/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQWNjb3VudFxMb2dvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Account/Profile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Booking/Cancel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQm9va2luZ1xDYW5jZWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Booking/Confirm.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQm9va2luZ1xDb25maXJtLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Booking/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQm9va2luZ1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Booking/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQm9va2luZ1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Booking/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Payment/Cancel.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcUGF5bWVudFxDYW5jZWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Payment/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcUGF5bWVudFxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Payment/History.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcUGF5bWVudFxIaXN0b3J5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Payment/Success.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcUGF5bWVudFxTdWNjZXNzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Seat/Confirm.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcU2VhdFxDb25maXJtLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/Seat/Select.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcU2VhdFxTZWxlY3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/track/tectnical/MVC/projects/p5/BookFlightTickets/PL/Areas/Customer/Views/_ViewImports.cshtml]
